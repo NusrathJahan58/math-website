@@ -1,0 +1,174 @@
+body{
+	margin: 0 auto;
+}
+
+#container {
+	width: 1050px;
+	/*border: 1px solid grey;*/
+	margin: 0 auto;
+}
+#header{
+	height: 100px;
+}
+#brand{
+	float: left;
+}
+h1 a{
+	font-size: 50px;
+	font-weight: 100;
+	color: seagreen;
+	text-decoration: none;
+}
+
+#searchBox{
+	float: right;
+	background: linear-gradient(#d3f7f2, #4fd2ad, #a0e467);
+	width: 350px;
+	height: 38px;
+	padding: 18px;
+	margin-top: 10px;
+}
+.text{
+	float: left;
+	width: 200px;
+	font-size: 15px;
+	padding: 5px;
+	color: #E36A0C;
+	background: white url(search.png) right center
+    no-repeat;
+    border: 1px solid #861BBF;
+}
+.submit{
+	float: right;
+	width: 80px;
+	padding: 5px;
+	font-weight: bold;
+	color: #E36A0C;
+	font-size: 15px;
+	border: 1px solid #E36A0C;
+}
+.submit:hover {
+  background-color: yellow;
+}
+#menu{
+	height: 70px;
+	padding: 7px;
+	border: 1px solid #b3a4ce;
+	background: linear-gradient(#ebc7f1, #8a6890);
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+	float: left;
+	padding: 0 30px;
+	height: 30px;
+	border-right: 1px solid #0109ff;
+	
+}
+
+#menu ul li:last-child{
+border-right: none;
+}
+#menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #b31e51;
+	line-height: 30px;
+-webkit-transition: font-size 0.3s ease;
+-moz-transition: font-size 0.3s ease;
+-o-transition: font-size 0.3s ease;
+-ms-transition: font-size 0.3s ease;
+transition: font-size 0.3s ease;
+}
+#menu ul li a:hover, #menu ul li a.active{
+font-size: 20px;
+font-weight: bold;
+color: #025661;
+}
+#Introduction{
+	padding: 30px;
+    margin: 16px 0;
+	background: #a0e467;
+}
+#Introduction h3{
+	font-size: 45px;
+    color: #316901;
+    font-weight: strong;
+}
+#Introduction p{
+font-size: 25px;
+color: #ab5d78;
+text-align: justify;
+}
+.sidebar{
+height: 500px;
+width: 450px;
+border: 1px solid #BAF46F;
+border-radius: 20px;
+padding: 10px 30px;
+}
+.sidebar h3{
+color: #B314DB;
+font-size: 30px;
+}
+.sidebar ul{
+padding-top: 8px;
+}
+#leftsidebar ul li{
+padding: 4px 0 4px 10px;
+list-style-image: url(arrow.png);
+}
+#rightsidebar ul li{
+padding: 17px 0 17px 70px;
+list-style: none;
+background: url(tick.png) no-repeat left
+center;
+}
+.sidebar ul li a{
+text-decoration: none;
+font-size: 20px;
+color: #5d12e7;
+transition: font-size 0.3s ease; 
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+text-decoration: none;
+color: #B314DB;
+font-size: 23px;
+font-weight: bold;
+}
+#leftsidebar{
+float: left;
+}
+#rightsidebar{
+float: right;
+}
+.clear{
+clear: both;
+}
+.footer{
+height: 60px;
+background: linear-gradient(#F6F390, #D5D533);
+padding: 10px 30px;
+margin-top: 15px
+}
+.footer p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
